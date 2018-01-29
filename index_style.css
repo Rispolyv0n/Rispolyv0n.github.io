@@ -1,3 +1,21 @@
 body{
-	background-color : powderblue;
+	background-color: #D3A89C;
+}
+
+.menu{
+	position: fixed;
+	top: 30%;
+	left: -30px;
+	background: #ffffff;
+	padding: 10px 50px;
+	border-radius: 50px;
+	display: block;
+
+}
+
+.menu:hover{
+	transition-delay: 1s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	padding: 10px 100px;
 }
