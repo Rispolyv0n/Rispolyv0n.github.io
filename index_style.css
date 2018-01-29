@@ -2,7 +2,7 @@ body{
 	background-color: #D3A89C;
 }
 
-.menu{
+.menu_item{
 	position: fixed;
 	top: 30%;
 	left: -30px;
@@ -13,9 +13,17 @@ body{
 
 }
 
-.menu:hover{
+.menu_item:hover{
 	transition-delay: 1s ease;
 	-webkit-transition: all 1s ease;
 	-moz-transition: all 1s ease;
 	padding: 10px 100px;
+}
+
+.menu_item.when{
+	margin-top: 80px;
+}
+
+.menu_item.what{
+	margin-top: 80px;
 }
