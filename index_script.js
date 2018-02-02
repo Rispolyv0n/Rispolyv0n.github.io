@@ -5,7 +5,7 @@ var current_category = 0;
 var current_img = 0;
 var current_img_num = 0;
 var img_poster = ["game_0.png", "game_1.png", "game_2.png", "game_3.jpg", "game_4.png", "game_5.png", "game_6.jpg"];
-var slideShowPath = "images/slideShow/game/";
+var slideShowPath = "/images/slideShow/game/";
 init();
 
 /*
