@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="index_style.css" />
+		<link rel="stylesheet" href="index_stylesheet.css" />
+		<script type="text/javascript" src="index_script.js"></script>
 	</head>
-
+											
 	<body>
+		<div class="cover_border">
+			<span id="text_iris_I1">
+				<a href="#slide_id" class="text_iris" onmouseover="slideDown_show('text_detail_I1')" onmouseout="slideUp_hide('text_detail_I1')">I</a>
+				<a href="#" id="text_detail_I1" class="text_detail">poster</a>
+			</span>
+			<span id="text_iris_R">
+				<a href="#slide_id" class="text_iris" onmouseover="slideDown_show('text_detail_R')" onmouseout="slideUp_hide('text_detail_R')">R</a>
+				<a href="#" id="text_detail_R" class="text_detail">game UI</a>
+			</span>
+			<span id="text_iris_I2">
+				<a href="#slide_id" class="text_iris" onmouseover="slideDown_show('text_detail_I2')" onmouseout="slideUp_hide('text_detail_I2')">I</a>
+				<a href="#" id="text_detail_I2" class="text_detail">graphic</a>
+			</span>
+			<span id="text_iris_S">
+				<a href="#slide_id" class="text_iris" onmouseover="slideDown_show('text_detail_S')" onmouseout="slideUp_hide('text_detail_S')">S</a>
+				<a href="#" id="text_detail_S" class="text_detail">illustration</a>
+			</span>
+			<span id="text_iris_W">
+				<a href="#slide_id" class="text_iris" onmouseover="slideDown_show('text_detail_W')" onmouseout="slideUp_hide('text_detail_W')">W</a>
+				<a href="#" id="text_detail_W" class="text_detail">logo</a>
+			</span>
+			<span id="text_iris_U">
+				<a href="#slide_id" class="text_iris" onmouseover="slideDown_show('text_detail_U')" onmouseout="slideUp_hide('text_detail_U')">U</a>
+				<a href="#" id="text_detail_U" class="text_detail">photos</a>
+			</span>
+		</div>
+		<div id="slide_id" class="img_slide_wrap">
+			<div class="slideShow_bg">
+				<img id="img_slide" class="slideShow_zone" src="images/slideShow/illustration/illustration_0.png">
+			</div>
+		<div class="slideShow_btn">
+			<div id="img_switch_left" class="img_switch" onmousedown="switchImg(0)"></div>
+			<div id="img_switch_right" class="img_switch" onmousedown="switchImg(1)"></div>
+		</div>
+	</div>
+
 		<div class="float_menu">
-			<div class="menu_item who">
-				<a href="#">Who</a>
+			<div class="item menu_item_who">
+				<a href="#">WHO</a>
 			</div>
-			<div class="menu_item when">
-				<a href="#">When</a>
+			<div class="item menu_item_when">
+				<a href="#">WHEN</a>
 			</div>
-			<div class="menu_item what">
-				<a href="#">What</a>
+			<div class="item menu_item_what">
+				<a href="#">WHAT</a>
 			</div>
 		</div>
+
 	</body>
 </html>
